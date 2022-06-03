@@ -58,7 +58,7 @@ When all this  steps is completed you can start program by typing in project fol
 ```shell
 python3 spoytif.py
 ```
-Example Usage of Program 	:tw-2935: 
+Example Usage of Program 	:arrow_heading_down:
 ```shell
 Please enter your .json file path EX:Path/file_name.json :
 /media/cosmohacker/cosmohacker/Spotify/MyData/Playlist1.json
