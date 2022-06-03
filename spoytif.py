@@ -19,7 +19,7 @@ def downloadViaLink():
         songName = input()
         print("Please Enter Download Location : ")
         downloadLocation = input()
-        os.system('spotdl ' + "'" + songName + "'" + ' --output' + downloadLocation)
+        os.system('spotdl ' + "'" + songName + "'" + ' --output ' + downloadLocation)
     elif processType == '2':
         print("Please Enter Spotify PlayList Link For Download : ")
         playlistLink = input()
