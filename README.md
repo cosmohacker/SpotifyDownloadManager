@@ -60,6 +60,27 @@ python3 spoytif.py
 ```
 Example Usage of Program 	:arrow_heading_down:
 ```shell
+Please Choose Process Type [Download Via Json - 1| Download Via Link/Name - 2]
+2
+spotdl version :
+1
+3.9.6
+Please Choose Process Type [Download Song - 1 | Playlist - 2 ]: 
+Please Enter Song Name For Download : 
+Shadow Chromatics
+Please Enter Download Location : 
+/home/cosmohacker/Music/
+Will download to: /home/cosmohacker/Music
+Searching Spotify for song named "Shadow Chromatics"...
+Found YouTube URL for "Chromatics - Shadow" : https://www.youtube.com/watch?v=2Hwp0tA7IAM
+
+Chromatics - Shadow      Done               ━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+
+Process finished with exit code 0
+
+Please Choose Process Type [Download Via Json - 1| Download Via Link/Name - 2]
+1
+
 Please enter your .json file path EX:Path/file_name.json :
 /media/cosmohacker/cosmohacker/Spotify/MyData/Playlist1.json
 Randomize
