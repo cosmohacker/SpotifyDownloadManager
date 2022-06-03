@@ -27,7 +27,7 @@ Table of contents
 
 # Installation
 
-###### How to download what is pip for dummies
+###### How to download pip for dummies
 - [Windows](https://www.google.com/search?q=how+to+install+pip+windows&ei=GP2ZYrbrNs2Qxc8PzsqFqAU&ved=0ahUKEwi219TxopH4AhVNSPEDHU5lAVUQ4dUDCA0&uact=5&oq=how+to+install+pip+windows&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWOgcIABBHELADOgcIABCwAxBDSgQIQRgASgQIRhgAUJ6SA1jqmQNgraIDaARwAXgAgAHZAogB2AySAQcwLjMuMy4xmAEAoAEByAEKwAEB&sclient=gws-wiz)
 - [Linux](https://www.google.com/search?q=how+to+install+pip+linux&ei=_fyZYtmDJNKWxc8P78GGoAM&ved=0ahUKEwiZ9tHkopH4AhVSS_EDHe-gATQQ4dUDCA0&uact=5&oq=how+to+install+pip+linux&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEB4QFjIGCAAQHhAWMgYIABAeEBY6BwgAEEcQsAM6CgguENQCELADEEM6BwgAELADEENKBAhBGABKBAhGGABQkAVYqApg4QtoAXABeACAAa8DiAH6CJIBBTMtMi4xmAEAoAEByAEKwAEB&sclient=gws-wiz)
 
