@@ -7,7 +7,7 @@
 # Features
 
 - You can download your Spotify albums easily.
-- It's free. (I think this is a feature.)
+- It's free. (I think we can count this as feature)
 
 Table of contents
 =================
