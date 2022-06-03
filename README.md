@@ -78,7 +78,7 @@ Chromatics - Shadow      Done               ━━━━━━━━━━━━
 
 Process finished with exit code 0
 
-Please Choose Process Type [Download Via Json - 1| Download Via Link/Name - 2]
+Please Choose Process Type [Download Via Json - 1 | Download Via Link/Name - 2]
 1
 
 Please enter your .json file path EX:Path/file_name.json :
