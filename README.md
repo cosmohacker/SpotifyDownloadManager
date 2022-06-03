@@ -23,6 +23,12 @@
     python3 spoytif.py
 
 ### [Windows](https://www.dictionary.com/e/slang/normie/)
+```shell
+git clone https://github.com/cosmohacker/SpoytifDownloadManager
+cd SpoytifDownloadManager
+pip install -r /path/to/requirements.txt
+py spoytif.py / python3 spoytif.py/ python spoytif.py
+```
 
 # Usage
 
@@ -32,7 +38,7 @@
 4. Request your data from Spotify.
 5. After Download your Spotify data unzip my_spotify_data.zip.
 6. When unzipping its done you will see .json file types (ex:Playlist1.json/Playlist2.json).
-When all this  steps is completed you can start prograram by typing in project folder : 
+When all this  steps is completed you can start program by typing in project folder : 
 
 ```shell
 python3 spoytif.py
