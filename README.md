@@ -9,11 +9,21 @@
 - You can download your Spotify albums easily.
 - It's free. (I think this is a feature.)
 
-**Table of Contents**
+Table of contents
+=================
 
-[TOCM]
-
-[TOC]
+<!--ts-->
+   * [Spotify Download Manager](#spotify-download-manager)
+      * [by cosmohacker](#by-cosmohacker)
+        * [Follow Me On Spotify](#follow-me-on-spotify)
+   * [Features](#features)
+   * [Installation](#installation)
+      * [Linux](#linux)
+      * [Windows](#windows)
+   * [Usage](#usage)
+      * [Possible Errors in Linux](#possible-errors-in-linux)
+        * [How To Fix](#how-to-fix)
+<!--te-->
 
 # Installation
 ### [Linux](https://c.tenor.com/epNMHGvRyHcAAAAd/gigachad-chad.gif)
@@ -75,7 +85,7 @@ Traceback (most recent call last):
 pytube.exceptions.RegexMatchError: __init__: could not find match for ^\w+\W
 
 ```
-### How to fix : 
+### How to fix
 1. Open /pytube/cipher.py in your editor then change this row : 
 
 ```python
