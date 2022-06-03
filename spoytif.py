@@ -49,10 +49,13 @@ def getTracks(listName, json_filename):
                 # reset variables
                 value1 = value2 = 0
             elif event == 'end_map':
-                # reach the end of an object
+               # reach the end of an object
                 if value3 == listName:
                     count += 1
-                    input.insert(count, [value3, value1 + " " + value2])
+                    if isinstance(value1, int) and isinstance(value2, int):
+                        print ("Empty Track")
+                    else:
+                        input.insert(count, [value3, value1 + " " + value2])
                 continue
             if prefix.endswith('.trackName'):
                 value1 = value
