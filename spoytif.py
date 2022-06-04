@@ -2,30 +2,31 @@ import os
 import re
 import urllib.request
 import sys
-import spotdl
 import ijson
 import numpy as np
-from pytube import YouTube
 
+from pytube import YouTube
+from spotdl_util import *
 
 def downloadViaLink():
     print("spotdl version :")
     os.system('spotdl --version')
 
-    print("Please Choose Process Type [Download Song - 1 | Playlist - 2 ]: ")
-    processType = input()
+    processType = getProcessType()
+
     if processType == '1':
-        print("Please Enter Song Name For Download : ")
-        songName = input()
-        print("Please Enter Download Location : ")
-        downloadLocation = input()
-        os.system('spotdl ' + "'" + songName + "'" + ' --output ' + downloadLocation)
+        downloadSong()
     elif processType == '2':
-        print("Please Enter Spotify PlayList Link For Download : ")
-        playlistLink = input()
-        print("Please Enter Download Location : ")
-        downloadLocation = input()
-        os.system('spotdl ' + playlistLink + ' --output ' + downloadLocation)
+        downloadPlaylist()
+    elif processType == '3':
+        downloadAlbum()
+    elif processType == '4':
+        downloadFav()
+    elif processType == '5':
+        downloadArtistSongs()
+    elif processType == '6':
+        resumeDownload()
+
 
 def downloadViaJson():
     print("Please enter your .json file path EX:Path/file_name.json : ")
