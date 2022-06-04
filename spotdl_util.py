@@ -9,7 +9,7 @@ def getProcessType():
         "\nDownload Album - [3]"
         "\nDownload Your Favourite Songs - [4]"
         "\nDownload All Songs From an Artist - [5]"
-        "\nResume Failed/Incomplete Download - [7]"
+        "\nResume Failed/Incomplete Download - [6]"
     )
     print("Selection : ")
     processType = input()
