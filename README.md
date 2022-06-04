@@ -33,14 +33,14 @@ Table of contents
 
 ### [Linux](https://c.tenor.com/epNMHGvRyHcAAAAd/gigachad-chad.gif)
     sudo git clone https://github.com/cosmohacker/SpotifyDownloadManager
-    cd SpoytifDownloadManager
+    cd SpotifyDownloadManager
     pip install -r requirements.txt
     python3 spoytif.py
 
 ### [Windows](https://www.dictionary.com/e/slang/normie/)
 ```shell
 git clone https://github.com/cosmohacker/SpotifyDownloadManager
-cd SpoytifDownloadManager
+cd SpotifyDownloadManager
 pip install -r /path/to/requirements.txt
 py spoytif.py / python3 spoytif.py/ python spoytif.py
 ```
