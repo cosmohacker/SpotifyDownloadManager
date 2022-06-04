@@ -32,14 +32,14 @@ Table of contents
 - [Linux](https://www.google.com/search?q=how+to+install+pip+linux&ei=_fyZYtmDJNKWxc8P78GGoAM&ved=0ahUKEwiZ9tHkopH4AhVSS_EDHe-gATQQ4dUDCA0&uact=5&oq=how+to+install+pip+linux&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEB4QFjIGCAAQHhAWMgYIABAeEBY6BwgAEEcQsAM6CgguENQCELADEEM6BwgAELADEENKBAhBGABKBAhGGABQkAVYqApg4QtoAXABeACAAa8DiAH6CJIBBTMtMi4xmAEAoAEByAEKwAEB&sclient=gws-wiz)
 
 ### [Linux](https://c.tenor.com/epNMHGvRyHcAAAAd/gigachad-chad.gif)
-    sudo git clone https://github.com/cosmohacker/SpoytifDownloadManager
+    sudo git clone https://github.com/cosmohacker/SpotifyDownloadManager
     cd SpoytifDownloadManager
     pip install -r requirements.txt
     python3 spoytif.py
 
 ### [Windows](https://www.dictionary.com/e/slang/normie/)
 ```shell
-git clone https://github.com/cosmohacker/SpoytifDownloadManager
+git clone https://github.com/cosmohacker/SpotifyDownloadManager
 cd SpoytifDownloadManager
 pip install -r /path/to/requirements.txt
 py spoytif.py / python3 spoytif.py/ python spoytif.py
