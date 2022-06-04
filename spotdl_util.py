@@ -114,8 +114,6 @@ def downloadArtistSongs():
 
 
 def resumeDownload():
-    print("Please Enter Spotify Artist Link For Download : ")
-    artistLink = input()
-    outputFormat = getFormat()
-    downloadLocation = getPath()
-    os.system('spotdl ' + artistLink + ' --output ' + downloadLocation + ' --output-format ' + outputFormat)
+    print("Please Enter .spotdlTrackingFiles Path to Resume : ")
+    restorePath = input()
+    os.system('spotdl ' + restorePath)
