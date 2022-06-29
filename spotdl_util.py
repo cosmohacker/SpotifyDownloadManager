@@ -68,7 +68,7 @@ def downloadSong():
     outputFormat = getFormat()
     downloadLocation = getPath()
     os.system(
-        'spotdl ' + "'" + songName + "'" + ' --output ' + downloadLocation + ' --output-format ' + outputFormat)
+        'spotdl ' + "'" + songName + "'" + ' --output ' + '\"' + downloadLocation + '\"' + ' --output-format ' + outputFormat)
 
 
 def downloadPlaylist():
@@ -79,7 +79,7 @@ def downloadPlaylist():
     downloadThread = getDownloadThreads()
     searchThread = getSearchThreads()
     os.system(
-        'spotdl ' + playlistLink + ' --output ' + downloadLocation + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
+        'spotdl ' + playlistLink + ' --output ' + '\"' + downloadLocation + '\"' + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
 
 
 def downloadAlbum():
@@ -90,7 +90,7 @@ def downloadAlbum():
     downloadThread = getDownloadThreads()
     searchThread = getSearchThreads()
     os.system(
-        'spotdl ' + albumLink + ' --output ' + downloadLocation + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
+        'spotdl ' + albumLink + ' --output ' + '\"' + downloadLocation + '\"' + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
 
 
 def downloadFav():
@@ -99,7 +99,7 @@ def downloadFav():
     downloadThread = getDownloadThreads()
     searchThread = getSearchThreads()
     os.system(
-        'spotdl ' + '--user-auth saved' + ' --output ' + downloadLocation + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
+        'spotdl ' + '--user-auth saved' + ' --output ' + '\"' + downloadLocation + '\"' + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
 
 
 def downloadArtistSongs():
@@ -110,7 +110,7 @@ def downloadArtistSongs():
     downloadThread = getDownloadThreads()
     searchThread = getSearchThreads()
     os.system(
-        'spotdl ' + artistLink + ' --output ' + downloadLocation + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
+        'spotdl ' + artistLink + ' --output ' + '\"' + downloadLocation + '\"' + ' --output-format ' + outputFormat + ' --dt ' + downloadThread + ' --st ' + searchThread)
 
 
 def resumeDownload():
