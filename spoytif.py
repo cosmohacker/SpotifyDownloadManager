@@ -121,7 +121,7 @@ def downloadFromYoutube(youtubeURL, download_path):
 
 
 def chooseType():
-    print("Please Choose Process Type [Download Via Json - 1| Download Via Link/Name - 2]")
+    print("Please Choose Process Type [Download Via Json - [1] | Download Via Link/Name - [2]")
     type = input()
     if type == '1':
         downloadViaJson()
