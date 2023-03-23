@@ -1,3 +1,5 @@
+# HANG TIGHT GUYS APP IS COMING AND IT'S FREE
+
 # Spotify Download Manager
 #### by [cosmohacker](https://github.com/cosmohacker)
 ###### [Follow Me On Spotify](https://open.spotify.com/user/217cixzitjjw52l67325r3ypi?si=688baa4151194411)
