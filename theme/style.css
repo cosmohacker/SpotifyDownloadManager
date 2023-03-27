@@ -1,0 +1,281 @@
+@charset "utf-8";
+@import url("src/webfonts/JetBrainsMonoNL_Regular/stylesheet.css");
+@import url("src/webfonts/JetBrainsMonoNL_Light/stylesheet.css");
+
+
+* {
+    font-size: 100%;
+    font-family: "JetBrainsMonoNL Regular";
+    color: white;
+}
+
+.card-header{
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: space-between;
+	height: 35px
+}
+
+body {
+    background-image: url(src/img/bg/Sputyif-Background.png);
+}
+.slider  {
+    box-sizing: border-box;
+    position: absolute;
+    width: 525px;
+    height: 150px;
+    top: 46px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    box-shadow: 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 17px;
+}
+
+.left-nav {
+    position: absolute;
+    width: 200px;
+    height: 820px;
+    left: 60px;
+    top: 20px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    box-shadow: 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 17px;
+    clear: both;
+    justify-content: space-between;
+}
+
+.right-nav {
+	flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 650px;
+    height: 820px;
+    left: 271.21px;
+    top: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    box-shadow: 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 17px;
+}
+
+.logo {
+    z-index: 2;
+    width: 80px;
+    height: 60px;
+    margin-left: 0px;
+}
+.app-name  {
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    width: 125px;
+    height: 30px;
+	cursor: pointer;
+}
+
+
+.logo-background{
+    justify-content: center;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 100px;
+    margin-top: 23%;
+    margin-right: 23%;
+    margin-bottom: 23%;
+    margin-left: 23%;
+    padding-top: 12%;
+}
+.app-name {
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+    margin-top: 30%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 7px;
+    padding-top: 11px;
+    margin-left: -7px;
+}
+.left-nav-hr {
+    width: 150px;
+    height: 0px;
+    border: 0.1px solid #000;
+    margin-left: 25px;
+}
+
+.social{
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.social a{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+	 line-height: 33px;
+}
+
+.social #github_link {
+    background: #000000;
+    text-align: left;
+}
+
+.social #donate_link {
+text-decoration: none;
+background: #FFDD00;
+	color: black;
+	font-size: 12px !important;
+}
+
+.social #share_link {
+background: rgba(255, 255, 255, 0.23);
+}
+
+.album-image{
+    font-family: "JetBrainsMonoNL Light";
+}
+.player{
+    justify-content: center;
+    text-align: center;
+    bottom: 0px;
+}
+
+.player #album_name{
+	font-size: 12px;
+	font-family: "JetBrainsMonoNL Light";
+}
+
+.player #artist_name{
+	font-size: 10px;
+	color: rgba(255, 255, 255, 0.42);
+	font-family: "JetBrainsMonoNL Light";
+}
+
+.music-timer{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 10px;
+}
+
+.progress {
+	margin-left: 15px;
+	margin-right: 15px;
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 10px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar {
+  width: 85%;
+  background-color: #BAA8ED;
+  animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #BAA8ED;
+  }
+  100% {
+    width: 85%;
+    background-color: #7F56F2;
+  }
+}
+
+.player button{
+	background: none;
+	border:none;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.play-controls{
+    display: inline-flex;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.start-stop{
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(38.23deg, #7150D0 15.58%, #AE92FF 83%);
+    border-radius: 300px;
+}
+
+.container{
+    height: auto;
+    width: auto;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 197px;
+	
+}
+
+.main-card{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 254px;
+    height: 227px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.41) 100%);
+    box-shadow: 0px 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 17px;
+}
+
+.btn-library{
+    text-decoration: underline;
+    font-family: "JetBrainsMonoNL Light";
+    border-style: none;
+	background-color: transparent;
+	font-size: 10px;
+	padding-top: 23px;
+	cursor: pointer;
+}
+
+.author{
+	font-size: 12px
+}
