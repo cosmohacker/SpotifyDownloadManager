@@ -29,8 +29,6 @@ Table of contents
    * [Donate](#donate)
    * [Features](#features)
    * [Installation](#installation)
-      * [Linux](#linux)
-      * [Windows](#windows)
    * [Usage](#usage)
 <!--te-->
 
@@ -43,7 +41,7 @@ You can install latest setup file from here.
 
 # Usage
 
-##Download
+## Download
 
 Select your download type [Song, Playlist, Album, Artist]
 Then enter link and output folder(Download Location) and Hit Download Button.
@@ -58,7 +56,7 @@ Then enter link and output folder(Download Location) and Hit Download Button.
 6. When unzipping its done you will see .json file types (ex:Playlist1.json/Playlist2.json).
 7. Then choose JSON from download section. Write playlist name (you can see playlist names in terminal or just open and look JSON) select JSON file the program will download songs and creates recovery file to your JSON file location.
 
-##Recovery
+## Recovery
 
 Choose your recovery file to resume previous download process it will download songs to recovery file path but be careful if previous songs not in the same directory it will start downloading from beggining, so do not change the music files location.
 
