@@ -1,5 +1,6 @@
 import os
 import re
+import subprocess
 import urllib.request
 from pathlib import Path
 
@@ -12,16 +13,19 @@ class Utils:
     @staticmethod
     def download_song(link, download_format, path):
         open(path + "/recover.spotdl", "w")
-        os.system('python -m spotdl save ' + link + ' --save-file ' + path + '/recover.spotdl')
-        os.system(
-            'python -m spotdl download ' + link + ' --output ' + '\"' + path + '\"' + ' --format ' + download_format + ' --preload ' + ' > data.txt')
+        subprocess.call('python -m spotdl save ' + link + ' --save-file ' + path + '/recover.spotdl', shell=True,
+                        stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        subprocess.call(
+            'python -m spotdl download ' + link + ' --output ' + '\"' + path + '\"' + ' --format ' + download_format + ' --preload ' + ' > data.txt',
+            shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     @staticmethod
     def resume_download(file, __type):
         path = os.path.dirname(file)
         if __type == "spotdl":
-            os.system(
-                'python -m spotdl download ' + file + ' --output ' + '\"' + path + '\"' + ' --preload ' + ' > data.txt')
+            subprocess.call(
+                'python -m spotdl download ' + file + ' --output ' + '\"' + path + '\"' + ' --preload ' + ' > data.txt',
+                shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         else:
             Data.data_insert("JSON recovery process started.")
             resume_json(file)
