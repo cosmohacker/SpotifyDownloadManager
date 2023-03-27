@@ -446,24 +446,6 @@ function setSong(id) {
     spanElement.style.color = '#0c9000';
 }
 
-$(window).on('load', function() {
-    $.ajax({
-        url: '/play-music',
-        method: 'GET',
-        xhrFields: {
-            responseType: 'blob'
-        },
-        success: (data) => {
-            audioSrc = URL.createObjectURL(data);
-            $('#music-player source').attr('src', audioSrc);
-            musicPlayer[0].load();
-        },
-        error: (xhr, status, error) => {
-            console.log('Error loading music:', error);
-        }
-    });
-});
-
 btnStop.addEventListener('click', () => {
     musicPlayer[0].pause();
     btnStop.style.display = "none";
