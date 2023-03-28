@@ -63,5 +63,13 @@ Then enter link and output folder(Download Location) and Hit Download Button.
 Choose your recovery file to resume previous download process it will download songs to recovery file path but be careful if previous songs not in the same directory it will start downloading from beggining, so do not change the music files location.
 
 # ATTENTION
-In Windows, the setup file can be defined as a virus, because the inno setup program is likely to be on the black list and I do not do any certification for the setup, there is no virus. You can scan with external virus programs such as kaspersky asvast etc.
+In Windows, the setup file can be detect as a virus, because the inno setup program is likely to be on the black list and I didn't make any certification for the setup, there is no virus. You can scan with external virus programs such as Kaspersky, Avast etc.
+
+Here is same problems:
+
+https://stackoverflow.com/questions/67573833/windows-defender-detects-my-own-inno-setup-as-virus
+
+https://stackoverflow.com/questions/68834409/program-installed-with-inno-setup-seen-as-trojan-wacatac-bml
+
+https://stackoverflow.com/questions/24864545/inno-setup-executable-seen-as-a-virus
 
