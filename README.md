@@ -62,4 +62,6 @@ Then enter link and output folder(Download Location) and Hit Download Button.
 
 Choose your recovery file to resume previous download process it will download songs to recovery file path but be careful if previous songs not in the same directory it will start downloading from beggining, so do not change the music files location.
 
+# ATTENTION
+In Windows, the setup file can be defined as a virus, because the inno setup program is likely to be on the black list and I do not do any certification for the setup, there is no virus. You can scan with external virus programs such as kaspersky asvast etc.
 
