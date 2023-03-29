@@ -13,7 +13,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{9F15F864-A5B7-4C3C-B629-40AFEB4B3505}
+AppId={{3169420-3131-6969-31420-31693169420}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -28,7 +28,7 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=lowest
 OutputDir=C:\Users\yagiz\Desktop
 OutputBaseFilename=Sputyif Setup
-SetupIconFile=C:\Users\yagiz\Desktop\Workspace\sputyif\static\img\logo\logo.ico
+SetupIconFile=C:\Users\Your_Mom\Desktop\Workspace\sputyif\static\img\logo\logo.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
