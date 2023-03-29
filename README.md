@@ -7,12 +7,6 @@
 # ScreenShot
 ![Screenshot_1](https://user-images.githubusercontent.com/25702402/227925819-cef97956-ef12-4d9a-b71f-9422a62951af.png)
 
-# Donate
-
-Network: BSC BNB Smart Chain (BEP20)
-
-Address: 0xd7bd29456d043044b73dece41538d27f3258829c
-
 # Features
 
 - You can download your songs,playlists,artists and albums easily with this application.
@@ -28,7 +22,6 @@ Table of contents
       * [by cosmohacker](#by-cosmohacker)
         * [Follow Me On Spotify](#follow-me-on-spotify)
    * [ScreenShot](#screenshot)
-   * [Donate](#donate)
    * [Features](#features)
    * [Installation](#installation)
    * [Usage](#usage)
