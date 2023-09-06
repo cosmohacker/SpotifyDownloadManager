@@ -2,6 +2,38 @@
 #### by [cosmohacker](https://github.com/cosmohacker)
 ###### [Follow Me On Spotify](https://open.spotify.com/user/217cixzitjjw52l67325r3ypi?si=688baa4151194411)
 
+## Please Read :
+#### 06.09.2023 [dd/mm/yyyy]
+Hello everyone!
+I decided to archive this repository due to lack of time and because of my intensity. This means I can no longer answer your questions/issues etc. But you can reach me whenever you want from my social links.
+
+#### 01.09.2023 [dd/mm/yyyy]
+[LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7103151812299411456/)
+
+## THANK YOU FOR 1000+ DOWNLOADS
+
+Hello everyone!
+I am writing this post to express my happiness. Finally, my SpotifyDownloadManager application that I shared on Github has reached 1000 downloads!
+I would like to thank everyone who downloaded and used my application during this process.
+You can download my app here: https://lnkd.in/geb_CKg7
+
+Also, if you want to participate in the beta of the game Astrosa, which I will publish on September 1, you can register here:
+https://lnkd.in/gde6rSmT
+I will continue to develop the game until the production release by releasing a new update every week, I don't know what will happen after that 😂 (Dear HR don't be angry i have a plan)
+
+Game details:
+https://lnkd.in/g56cVVWC
+
+If you want to use my AI called ALY that I am developing:
+https://lnkd.in/gu-F39Yu
+
+Google Play Extension (50+ users according to google analytics):
+https://lnkd.in/g-jYJUet
+
+My Google Play Apps:
+https://lnkd.in/ghH8fXdr
+
+
 [![Spoytif Logo](https://raw.githubusercontent.com/cosmohacker/github-components/main/spoytif.png "Spoytif Logo")](https://github.com/cosmohacker/SpoytifDownloadManager "Spoytif Logo")
 
 # ScreenShot
